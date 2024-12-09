@@ -1,0 +1,121 @@
+/* Algemeen */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #4e4e4e;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #f4f4f9;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background: url('../images/iot4climate_background.jfif') no-repeat center;
+    background-size: cover; 
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Navigatie */
+nav {
+    background: #0d8458;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #90dccb;
+}
+
+/* Secties */
+
+.container {
+    padding: 20px;
+    margin: 20px 0;
+    background: url('../images/background_base.jpg') no-repeat center center;
+    background-size: cover; 
+    border-radius: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    color: #0d8458;
+    margin-bottom: 15px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto; /* keep aspect ratio */
+    margin: 2rem 0; /* Add space around the image */
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Contactformulier */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0d8458;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* send contact form button */
+form button:hover {
+    background: #68ada1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0d8458;
+    color: white;
+    font-size: 0.9em;
+}
